@@ -1,0 +1,57 @@
+.titleForm input{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 2rem;
+    border-radius: 3px;
+    border:1px solid rgb(204, 187, 187)
+}
+
+.formControl{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.formControl label{
+    font-weight: bold;
+}
+
+
+.titleForm textarea{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 3px;
+    border:1px solid rgb(204, 187, 187)
+}
+
+.titleForm{
+    margin: 10px 0;
+}
+
+
+.actions{
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.btn{
+    background-color: brown;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 25px;
+    font:inherit;
+    font-weight: bold;
+    border: 1px solid rgba(233, 230, 230, 0.281);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn.active{
+    background-color:red
+}
+
+
+

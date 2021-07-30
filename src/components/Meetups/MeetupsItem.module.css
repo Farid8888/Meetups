@@ -1,0 +1,43 @@
+.description{
+padding: 3px;
+margin: 0;
+}
+
+.description h3{
+    margin: 0;
+}
+
+.description p{
+    margin: 0;
+}
+
+.meetup img{
+border-radius: 6px 6px 0 0;    
+height: 400px;
+width: 100%;
+max-width: 40rem;
+}
+
+
+.btn{
+    font-size: 1.3rem;
+    background-color:transparent;
+    font: inherit;
+    border-radius: 0.3rem;
+    padding: 5px 20px;
+    margin: 15px ;
+    color:#77002e;
+    border:1px solid #77002e;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+  background-color: rosybrown;
+}
+
+
+
+.btnDiv{
+    text-align: center;
+}
