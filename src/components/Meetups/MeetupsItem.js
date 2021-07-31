@@ -22,7 +22,7 @@ if(favItem){
               title:props.title,
               address:props.address,
               description:props.description,
-              img:props.img
+              image:props.img
         }
     
 

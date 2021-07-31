@@ -14,13 +14,14 @@ const favControl = ctxMeetups.totalFav
 let content
 
 if(favControl === 0){
-    content = <p>Add Fav</p>
+    content = <p>You got no favorites yet. Start adding some?</p>
 }else{
     content = <MeetupsList data={ctxMeetups.dammyData}/>
 }
 
 return (
     <div>
+        <h2 style={{fontSize: '3rem'}}>My Favorites</h2>
         {content}
    </div>
 )

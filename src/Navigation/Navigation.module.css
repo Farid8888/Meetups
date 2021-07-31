@@ -44,3 +44,10 @@
     color:white
 }
 
+.totalFav{
+    margin-left:0.8rem;
+    padding: 0 1rem;
+    background-color: salmon;
+    border-radius: 12px;
+    color: white;
+}

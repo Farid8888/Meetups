@@ -1,7 +1,5 @@
 import MeetupsItem from './MeetupsItem'
-import classes from './MeetupsList.module.css'
-import {Context} from '../../store/context'
-import {useContext} from 'react'
+
 
 
 
@@ -11,8 +9,7 @@ import {useContext} from 'react'
 
 const MeetupsList = (props)=>{
     return(
-        <section className={classes.meetupsList}>
-            <h2>All Meetups</h2>
+        <section>
             {props.data.map(item=>{
              return <MeetupsItem 
              key={item.id}
@@ -20,7 +17,7 @@ const MeetupsList = (props)=>{
               title={item.title}
               address={item.address}
               description={item.description}
-              img={item.img}/>
+              img={item.image}/>
             })}
         </section>
 
