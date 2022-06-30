@@ -2,7 +2,6 @@ import classes from './MeetupsForm.module.css'
 import Card from '../UI/Card'
 
 const meetupsForm = (props)=>{
-S
 
     return(        
         <Card>
